@@ -1,0 +1,36 @@
+
+LOOPS
+For Loop
+List abc = ["Ehtisham", "Khan", "Hello"];
+  for (var i = 0; i < abc.length; i++) {
+    print(abc[i]);
+  }
+-------------------------
+Table
+for (int i = 1; i <= 10; i++) {
+    print("5*$i=${5 * i}");
+  }
+-------------------------------------
+For in loop: Even Odd Task
+var list1 = [10, 34, 5, 3, 4, 5, 64];
+  for (var i in list1) {
+    if (i % 2 == 0) {
+      print("$i=Even");
+    } else {
+      print("$i=Odd");
+    }
+  }
+----------------------------------------------
+Smallest Largest Task
+ var arr = [78, 12, 33, 60, 3];
+  var largest = arr[0];
+  var smallest = arr[0];
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] > largest) {
+      largest = arr[i];
+    } else if (arr[i] < smallest) {
+      smallest = arr[i];
+    }
+  }
+  print("Smallest value in the list : $smallest");
+  print("Largest value in the list : $largest");
